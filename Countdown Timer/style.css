@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)), url(/12423845_4973881.jpg) ;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    height: 400px;
+    width: 520px;
+    background: transparent; 
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 2px 10px 40px rgb(248, 206, 213);
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+
+    
+}
+.title {
+    color: gainsboro;
+    font-size: 20px;
+    text-align: center;
+    
+}
+#hny{
+    font-size: 50px;
+    color: darkorange;
+}
+.col {
+    display: flex;
+    height: 80px;
+    padding: 30px;
+    position: relative;
+    right: 30px;
+   
+    
+  
+}
+input{
+    width: 96px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: pink;
+    text-align: center;
+    font-size: 20px;
+    
+}
+img{
+    position: relative;
+    top: 55px;
+    height: 150px;
+    width: 360px;
+    opacity: 0.8;
+    border-radius: 10px;
+}
